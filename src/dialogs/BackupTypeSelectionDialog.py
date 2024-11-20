@@ -14,7 +14,7 @@ class Dialog(wx.Dialog):
         self.radio_options = wx.RadioBox(
             panel,
             label="Backup options",
-            choices=["Incremental", "Full"],
+            choices=["Incremental", "Full (NOT IMPLEMENTED YET)"],
             majorDimension=1,
             style=wx.RA_SPECIFY_COLS
         )
