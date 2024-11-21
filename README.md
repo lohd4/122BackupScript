@@ -10,7 +10,3 @@ if there are any Errors the Erorrs will be present in the Log-File
 The Project Writes Config Data into a config File missing validation ect...
 Using the config file it creates a Task, which can all be defined via GUI
 also the Dir in which it should be backed up into can be selected (log dir also).
-
-## Problems:
-once a config file is made it must be deleted to redo the backup configuration, else the Backup wouldn't work.
-If the file is not fully filled out the Program won't work so...
