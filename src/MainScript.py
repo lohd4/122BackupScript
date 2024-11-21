@@ -64,8 +64,9 @@ def main():
     try:
         run_mgr = RunManager()
 
-        if run_mgr.is_first_run:
+        if not run_mgr.has_run:
             success = handle_first_run(run_mgr)
+
         else:
             success = handle_subsequent_run(run_mgr)
 
